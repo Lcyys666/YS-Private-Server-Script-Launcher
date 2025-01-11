@@ -1,6 +1,6 @@
 # 开始
 
-[English](docs/README_zh-CN.md)
+[English](docs/README_en.md)
 
 ## 支持功能
 
