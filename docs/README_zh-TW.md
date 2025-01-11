@@ -1,6 +1,6 @@
 # 開始
 
-[中文](https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/blob/main/README.md)[English]([docs/README_en.md](https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/blob/main/docs/README_en.md))
+[[中文]](https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/blob/main/README.md)[[English]]([docs/README_en.md](https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/blob/main/docs/README_en.md))
 
 ## 支援功能
 
