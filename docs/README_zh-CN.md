@@ -1,8 +1,12 @@
 #开始
+
 [English] (docs/README_zh-CN.md)
+
 ##开始
+
 - Get [Java 17] (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server] (https://www.mongodb.com/try/download/community)
+- Start with this script
 - Get Game Version 5.3.0:
 
 | Download link | Package size | The size of the decompressed package is | MD5 Checksum |
@@ -37,6 +41,7 @@
 - Put [Astrolabe.dll] (https://github.com/Kei-Luna/LunaGC_5.3.0/raw/main/patch/Astrolabe.dll) into the local root directory of the game
 - Download [Source] (https://github.com/pmagixc/5.3-res).
 - Set useEncryption, Questing, and useInRouting to false (should be false by default, change if not).
+- Start with this script
 - Launch the server and game, and make sure to create an account in the console/enter the password as you like
 
 ## Compilation
@@ -80,4 +85,3 @@ chmod +x gradlew
 - Certain backpack items
 - Weapon refinement
 ### There's more
-

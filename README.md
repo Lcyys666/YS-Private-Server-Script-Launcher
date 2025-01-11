@@ -1,8 +1,12 @@
 #开始
+
 [English](docs/README_zh-CN.md)
+
 ##开始
+
 - 获取 [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - 获取 [MongoDB Community Server](https://www.mongodb.com/try/download/community)
+- 用本脚本启动
 - 获取游戏版本5.3.0：
 
 | 下载链接 | 包大小 | 解压后的包大小 | MD5校验码 |
@@ -39,6 +43,7 @@
 - 把[Astrolabe.dll](https://github.com/Kei-Luna/LunaGC_5.3.0/raw/main/patch/Astrolabe.dll)放到游戏本地根目录下
 - 下载 [资源](https://github.com/pmagixc/5.3-res)。
 - 将useEncryption、Questing和useInRouting设置为false（默认情况下应该是false，如果不是则更改）。
+- 用本脚本启动
 - 启动服务器和游戏，确保在控制台中创建一个账户/账号密码随便输
 
 ## 编译
