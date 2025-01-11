@@ -1,6 +1,6 @@
 # Get started
 
-[中文] (README.md)
+[中文] (../README.md)
 
 ## Support features
 
