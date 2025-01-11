@@ -1,5 +1,7 @@
 # Get started
 
+[[中文]](https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/blob/main/README.md)[[繁体中文]](https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/blob/main/docs/README_zh-TW.md)
+
 ## Support features
 
 - Support Chinese and English
