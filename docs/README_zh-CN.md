@@ -1,16 +1,21 @@
-# start
+# Get started
 
-[English] (docs/README_zh-CN.md)
+[中文] (README.md)
 
-## start
+## Support features
+
+- Support Chinese and English
+- Resolved port occupancy (detected ports: 27017, 21000, 443)
+
+## Get Started
 
 - Get [Java 17] (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server] (https://www.mongodb.com/try/download/community)
 - Start with this script
-- Structure: Grasscutter\Grasscutter .jar
-- Structure: Database \mongod.exe
-- Structural :Java\bin\java.exe
-- Structure: Tool\Tool.exe
+- Structure: Lawn mower  lawn mower core .jar
+- Structure: Databasemongod.exe
+- Structure: Javabinjava.exe
+- Structure: Directives and Proxy ToolsDirectives and Proxy Tools.exe
 - Get Game Version 5.3.0:
 
 | Download link | Package size | The size of the decompressed package is | MD5 Checksum |
@@ -71,5 +76,4 @@ chmod +x gradlew
 ```shell
 ./gradlew generateHandbook
 ```
-
 
