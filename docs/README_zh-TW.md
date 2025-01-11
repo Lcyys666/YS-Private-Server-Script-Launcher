@@ -12,10 +12,10 @@
 - 獲取 [Java 17]（https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html）
 - 獲取 [MongoDB Community Server]（https://www.mongodb.com/try/download/community）
 - 用本腳本啟動
-- 結構：割草機割草機核心.jar
-- 結構：資料庫mongod.exe
-- 結構：Javabinjava.exe
-- 結構：指令和代理工具指令和代理工具.exe
+- 結構：割草機\割草機核心.jar
+- 結構：資料庫\mongod.exe
+- 結構：Java\bin\java.exe
+- 結構：指令和代理工具\指令和代理工具.exe
 - 取得遊戲版本5.3.0：
 
 | 下載連結 | 包大小 | 解壓后的包大小 | MD5校驗碼 |
