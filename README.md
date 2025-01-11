@@ -1,6 +1,6 @@
 # 开始
 
-[English](docs/README_en.md)
+[[English]](docs/README_en.md)[[繁体中文]](https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/blob/main/docs/README_zh-TW.md)
 
 ## 支持功能
 
