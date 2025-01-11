@@ -1,8 +1,8 @@
-#开始
+# 开始
 
 [English](docs/README_zh-CN.md)
 
-##开始
+## 开始
 
 - 获取 [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - 获取 [MongoDB Community Server](https://www.mongodb.com/try/download/community)
