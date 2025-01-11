@@ -1,7 +1,5 @@
 # Get started
 
-[中文] (../README.md)
-
 ## Support features
 
 - Support Chinese and English
