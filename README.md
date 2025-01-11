@@ -2,15 +2,20 @@
 
 [English](docs/README_zh-CN.md)
 
+## 支持功能
+
+- 支持中文和英文
+- 支持解决端口占(检测端口：27017,21000,443)
+
 ## 开始
 
 - 获取 [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - 获取 [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - 用本脚本启动
--结构：割草机\割草机核心.jar
--结构：数据库\mongod.exe
--结构：Java\bin\java.exe
--结构：指令和代理工具\指令和代理工具.exe
+- 结构：割草机\割草机核心.jar
+- 结构：数据库\mongod.exe
+- 结构：Java\bin\java.exe
+- 结构：指令和代理工具\指令和代理工具.exe
 - 获取游戏版本5.3.0：
 
 | 下载链接 | 包大小 | 解压后的包大小 | MD5校验码 |
