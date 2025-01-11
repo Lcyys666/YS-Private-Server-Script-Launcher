@@ -1,8 +1,8 @@
-#start
+# start
 
 [English] (docs/README_zh-CN.md)
 
-##start
+## start
 
 - Get [Java 17] (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server] (https://www.mongodb.com/try/download/community)
