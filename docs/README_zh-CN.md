@@ -1,12 +1,16 @@
-#开始
+#start
 
 [English] (docs/README_zh-CN.md)
 
-##开始
+##start
 
 - Get [Java 17] (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server] (https://www.mongodb.com/try/download/community)
 - Start with this script
+- Structure: Grasscutter\Grasscutter .jar
+- Structure: Database \mongod.exe
+- Structural :Java\bin\java.exe
+- Structure: Tool\Tool.exe
 - Get Game Version 5.3.0:
 
 | Download link | Package size | The size of the decompressed package is | MD5 Checksum |
@@ -68,20 +72,4 @@ chmod +x gradlew
 ./gradlew generateHandbook
 ```
 
-## Unavailable features
--Wish
--task
-- Cave Heaven
--abyss
--mail
-- Battle Pass
--activity
-- Claim Adventure Level/Mission Rewards
-- Claim boss drops
-- City prestige
-- Character breakout
-- Props
--forging
-- Certain backpack items
-- Weapon refinement
-### There's more
+

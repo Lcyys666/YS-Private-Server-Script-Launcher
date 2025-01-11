@@ -7,6 +7,10 @@
 - 获取 [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - 获取 [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - 用本脚本启动
+-结构：割草机：割草机核心.jar
+-结构：数据库：mongod.exe
+-结构：Java：bin：java.exe
+-结构：指令和代理工具：指令和代理工具.exe
 - 获取游戏版本5.3.0：
 
 | 下载链接 | 包大小 | 解压后的包大小 | MD5校验码 |
@@ -70,20 +74,4 @@ chmod +x gradlew
 ./gradlew generateHandbook
 ```
 
-## 不可用功能
-- 祈愿
-- 任务
-- 洞天
-- 深渊
-- 邮件
-- 战令
-- 活动
-- 领取冒险等级/委托奖励
-- 领取boss掉落
-- 城市声望
-- 角色突破
-- 小道具
-- 锻造
-- 某些背包物品
-- 武器精炼
-### 还有更多
+
