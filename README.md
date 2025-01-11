@@ -33,16 +33,15 @@
 | [audio_en-us_5.2.0_5.3.0_hdiff_kFXfWOqklZrcycKa.zip](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/audio_en-us_5.2.0_5.3.0_hdiff_kFXfWOqklZrcycKa.zip) | 0.65 GB | 1.42 GB | c7189fa380b90a343cc56b7d8438eaba |
 
 - 确保安装Java并设置环境变量。
-- 构建服务器（参考本指南中的“编译实际服务器”部分）。
+- 构建服务器。
 - 解决反作弊弹窗以及补丁重命名问题
 - 私服补丁使用教程
-- 把mhypbase.dll和version.dll放到游戏本地根目录下
-- 下载 [资源](https://github.com/Kei-Luna/LunaGC_Resources_5.0.0)，在下载的LunaGC文件夹中创建一个名为resources的新文件夹，然后在新文件夹中解压资源。
+- 把[Astrolabe.dll](https://github.com/Kei-Luna/LunaGC_5.3.0/raw/main/patch/Astrolabe.dll)放到游戏本地根目录下
+- 下载 [资源](https://github.com/pmagixc/5.3-res)。
 - 将useEncryption、Questing和useInRouting设置为false（默认情况下应该是false，如果不是则更改）。
-- 启动服务器和游戏，确保在LunaGC控制台中创建一个账户！
-- 玩得开心
+- 启动服务器和游戏，确保在控制台中创建一个账户/账号密码随便输
 
-## 编译！
+## 编译
 
 - **对于Windows**:
 ```shell
