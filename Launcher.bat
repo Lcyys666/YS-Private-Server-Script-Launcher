@@ -2,49 +2,21 @@
 cls
 
 :menu
+cls
+color 7
 echo.
-echo                                                                                   ██                
-echo                                                                                   ██                
-echo                                                                                   ██                
-echo                                                                                   ██                
-echo                                                                                   ███               
-echo                                                                                  ████               
-echo                                                                                  ████               
-echo            █                                             █                       █████              
-echo           ██                                             ██                     ██████              
-echo          ████                                           ███                    ████████             
-echo        ████████                                       ████████               ████████████           
-echo     █████████████████████████████████████████████████████████████         ██████████████████        
-echo        █████████             ████                     ███████                  ████████             
-echo         ███████            ███████                      ███   ██                 ████               
-echo         ███████  ███████     ████     ███████            █████████  ███████      ███      ████████  
-echo         ███████  █████████████████████████████  ███████████████████ ████████████████████████████████
-echo         ███████  ███████              ███████   ██████ █████████████████████     ████     ████████  
-echo         ███████  ███████              ███████   ██████ ██████       ████████    ███████   ████████  
-echo         ███████  ████████████████████ ███████   ██████ ██████ ████  ██████████████████████████████  
-echo         ███████  ███████              ███████   ██████ ████████████ ██████████████████████████████  
-echo         ███████  ███████              ███████   ██████ ██████ █████ ████████   ████████   ████████  
-echo        ████████  ████████████████████████████   ██████ ██████ █████ ████████     █████    ████████  
-echo        ███████   ██████     ███████   ███████   ██████ ██████ █████ ██████████████████████████████  
-echo        ███████   ██         ███████             ██████ ██████ ████  ██████████████████████████████  
-echo        ██████      █████    ███████   ██████    █████  ██████ ███   ███████      ████      ███████  
-echo       ██████  █████████████ ███████ █████████████████  ██████       ████        ██████        ████  
-echo      █████  ██████████████  ██████  ████████████████   ██████                ████████████           
-echo     █████   ██████          ███████         ███████    ██████              ████████████████         
-echo    ███        ████          ██████          ████       ██████                 ██████████            
-echo  █                  ████    ██████     ███             █████                   ████████             
-echo                             ████                       ████                     ██████              
-echo                             ██                         ██                       ██████              
-echo                                                                                  ████               
-echo                                                                                  ████               
-echo                                                                                  ████               
-echo                                                                                   ███               
-echo                                                                                   ██                
-echo                                                                                   ██                
-echo                                                                                   ██                
-echo                                                                                   ██                
-echo                                                                                   ██                
-echo                                                                                   ██                        
+echo " __   ___   _   _    _   _ ____  _   _ _____ _   _ ";
+echo " \ \ / / | | | / \  | \ | / ___|| | | | ____| \ | |";
+echo "  \ V /| | | |/ _ \ |  \| \___ \| |_| |  _| |  \| |";
+echo "   | | | |_| / ___ \| |\  |___) |  _  | |___| |\  |";
+echo "   |_|  \___/_/   \_\_| \_|____/|_| |_|_____|_| \_|";
+echo "                                                   ";            
+echo "  _                __    __    __   ";
+echo " | |    ___ _   _ / /_  / /_  / /_  ";
+echo " | |   / __| | | | '_ \| '_ \| '_ \ ";
+echo " | |__| (__| |_| | (_) | (_) | (_) |";
+echo " |_____\___|\__, |\___/ \___/ \___/ ";
+echo "            |___/                   ";
 echo 选择语言(Please choose a language):
 echo 1 - English
 echo 2 - 中文
@@ -57,19 +29,35 @@ if errorlevel 2 goto chinese
 if errorlevel 1 goto english
 
 :english
+cls
+echo " __   ___   _   _    _   _ ____  _   _ _____ _   _ ";
+echo " \ \ / / | | | / \  | \ | / ___|| | | | ____| \ | |";
+echo "  \ V /| | | |/ _ \ |  \| \___ \| |_| |  _| |  \| |";
+echo "   | | | |_| / ___ \| |\  |___) |  _  | |___| |\  |";
+echo "   |_|  \___/_/   \_\_| \_|____/|_| |_|_____|_| \_|";
+echo "                                                   ";            
+echo "  _                __    __    __   ";
+echo " | |    ___ _   _ / /_  / /_  / /_  ";
+echo " | |   / __| | | | '_ \| '_ \| '_ \ ";
+echo " | |__| (__| |_| | (_) | (_) | (_) |";
+echo " |_____\___|\__, |\___/ \___/ \___/ ";
+echo "            |___/                   ";
 echo You have chosen English.
 echo.
-    if not exist .\player.json (
+    if not exist .\app\player.json (
         goto :gamenotfind
     )
 )
-if exist .\player.json (
-    set /p game=<.\player.json
+if exist .\app\player.json (
+    set /p game=<.\app\player.json
     goto :s
 )
 :gamenotfind
 echo.&set /p select2=Enter the path to Genshin Impact's main program, but please note that folders with spaces should be in double quotation marks, for example“d:\program files\"genshin impact game"\genshinimpact.exe”.
+mkdir app
+cd app
 echo %select2% > .\player.json
+cd ..
 :s
 echo Hello, welcome to the program!
 echo current date：%date%
@@ -79,6 +67,18 @@ echo Please press any key to start！
 echo ------------------------------
 pause > nul
 cls
+echo " __   ___   _   _    _   _ ____  _   _ _____ _   _ ";
+echo " \ \ / / | | | / \  | \ | / ___|| | | | ____| \ | |";
+echo "  \ V /| | | |/ _ \ |  \| \___ \| |_| |  _| |  \| |";
+echo "   | | | |_| / ___ \| |\  |___) |  _  | |___| |\  |";
+echo "   |_|  \___/_/   \_\_| \_|____/|_| |_|_____|_| \_|";
+echo "                                                   ";            
+echo "  _                __    __    __   ";
+echo " | |    ___ _   _ / /_  / /_  / /_  ";
+echo " | |   / __| | | | '_ \| '_ \| '_ \ ";
+echo " | |__| (__| |_| | (_) | (_) | (_) |";
+echo " |_____\___|\__, |\___/ \___/ \___/ ";
+echo "            |___/                   ";
 echo Checking for port occupancy and trying to resolve it...
 for /f "tokens=2,4,5" %%a in ('netstat -ano^|find /i ":27017 "') do (
     if not "%%c"=="" (
@@ -136,21 +136,36 @@ pause
 goto menu
 
 :chinese
+cls
+echo " __   ___   _   _    _   _ ____  _   _ _____ _   _ ";
+echo " \ \ / / | | | / \  | \ | / ___|| | | | ____| \ | |";
+echo "  \ V /| | | |/ _ \ |  \| \___ \| |_| |  _| |  \| |";
+echo "   | | | |_| / ___ \| |\  |___) |  _  | |___| |\  |";
+echo "   |_|  \___/_/   \_\_| \_|____/|_| |_|_____|_| \_|";
+echo "                                                   ";            
+echo "  _                __    __    __   ";
+echo " | |    ___ _   _ / /_  / /_  / /_  ";
+echo " | |   / __| | | | '_ \| '_ \| '_ \ ";
+echo " | |__| (__| |_| | (_) | (_) | (_) |";
+echo " |_____\___|\__, |\___/ \___/ \___/ ";
+echo "            |___/                   ";
 echo 你选了中文。
 echo.
 echo 你好，欢迎使用本程序！
-echo 正在检测游戏主程序...
-    if not exist .\player.json (
+echo 正在检测游戏主程序...  
+if not exist .\app\player.json (
         goto :gamenotfind1
-    )
-)
-if exist .\player.json (
-    set /p game=<.\player.json
+ )
+if exist .\app\player.json (
+    set /p game=<.\app\player.json
     goto :s1
 )
 :gamenotfind1
-echo.&set /p select2=输入原神的主程序的路径，但请注意，带空格的文件夹请加上英文的双引号，比如“d:\program files\"genshin impact game"\genshinimpact.exe”。
+echo.&set /p select2=输入原神的主程序的路径，比如“D:\program files\"genshin impact game"\genshinimpact.exe”。
+mkdir app
+cd app
 echo %select2% > .\player.json
+cd ..
 :s1
 echo 当前日期：%date%
 echo 当前时间：%time%
@@ -159,6 +174,18 @@ echo 请按任意键启动！
 echo ------------------------------
 pause > nul
 cls
+echo " __   ___   _   _    _   _ ____  _   _ _____ _   _ ";
+echo " \ \ / / | | | / \  | \ | / ___|| | | | ____| \ | |";
+echo "  \ V /| | | |/ _ \ |  \| \___ \| |_| |  _| |  \| |";
+echo "   | | | |_| / ___ \| |\  |___) |  _  | |___| |\  |";
+echo "   |_|  \___/_/   \_\_| \_|____/|_| |_|_____|_| \_|";
+echo "                                                   ";            
+echo "  _                __    __    __   ";
+echo " | |    ___ _   _ / /_  / /_  / /_  ";
+echo " | |   / __| | | | '_ \| '_ \| '_ \ ";
+echo " | |__| (__| |_| | (_) | (_) | (_) |";
+echo " |_____\___|\__, |\___/ \___/ \___/ ";
+echo "            |___/                   ";
 echo 正在检查端口占用并尝试解决...
 for /f "tokens=2,4,5" %%a in ('netstat -ano^|find /i ":27017 "') do (
     if not "%%c"=="" (
@@ -216,6 +243,19 @@ pause
 goto menu
 
 :exit
+cls
+echo " __   ___   _   _    _   _ ____  _   _ _____ _   _ ";
+echo " \ \ / / | | | / \  | \ | / ___|| | | | ____| \ | |";
+echo "  \ V /| | | |/ _ \ |  \| \___ \| |_| |  _| |  \| |";
+echo "   | | | |_| / ___ \| |\  |___) |  _  | |___| |\  |";
+echo "   |_|  \___/_/   \_\_| \_|____/|_| |_|_____|_| \_|";
+echo "                                                   ";            
+echo "  _                __    __    __   ";
+echo " | |    ___ _   _ / /_  / /_  / /_  ";
+echo " | |   / __| | | | '_ \| '_ \| '_ \ ";
+echo " | |__| (__| |_| | (_) | (_) | (_) |";
+echo " |_____\___|\__, |\___/ \___/ \___/ ";
+echo "            |___/                   ";
 echo 退出程序(Exiting the program).
 pause
 exit
