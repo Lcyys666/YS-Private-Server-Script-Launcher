@@ -13,6 +13,7 @@
 - 獲取 [Java 17]（https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html）
 - 獲取 [MongoDB Community Server]（https://www.mongodb.com/try/download/community）
 - 用本腳本啟動
+- 注意在1.6.0.0版本后可以自定義結構
 - 結構：割草機\割草機核心.jar
 - 結構：資料庫\mongod.exe
 - 結構：Java\bin\java.exe
