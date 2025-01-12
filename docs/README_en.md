@@ -13,6 +13,7 @@
 - Get [Java 17] (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server] (https://www.mongodb.com/try/download/community)
 - Start with this script
+- Note: After version 1.6.0.0, it is possible to customize the structure
 - Structure: Grasscutter\Grasscutter.jar
 - Structure: Database\mongod.exe
 - Structure: Java\bin\java.exe
