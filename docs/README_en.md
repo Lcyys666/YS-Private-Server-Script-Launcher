@@ -12,10 +12,10 @@
 - Get [Java 17] (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Get [MongoDB Community Server] (https://www.mongodb.com/try/download/community)
 - Start with this script
-- Structure: Lawn mower  lawn mower core .jar
-- Structure: Databasemongod.exe
-- Structure: Javabinjava.exe
-- Structure: Directives and Proxy ToolsDirectives and Proxy Tools.exe
+- Structure: Grasscutter\Grasscutter.jar
+- Structure: Database\mongod.exe
+- Structure: Java\bin\java.exe
+- Structure: Tools\Tools.exe
 - Get Game Version 5.3.0:
 
 | Download link | Package size | The size of the decompressed package is | MD5 Checksum |
