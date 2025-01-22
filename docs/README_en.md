@@ -6,7 +6,8 @@
 
 - Support Chinese and English
 - Resolved port occupancy (detected ports: 27017, 21000, 443)
-- The ability to customize the catalog will be added in the future
+- *The function of adding custom directories will be added in the future (completed)
+- Support automatic updates
 
 ## Get Started
 
