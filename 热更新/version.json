@@ -1,6 +1,6 @@
 {
-    "version": "5.4",
+    "version": "5.4.1",
     "updateInfo": "新增功能：热更新+游戏5.4版本 功能；修复问题：部分 问题。",
-    "res": "https://ghproxy.cfd/https://github.com/pmagixc/5.4-res/archive/refs/heads/main.zip",
-    "jar": "https://ghproxy.cfd/https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/releases/download/%E7%83%AD%E6%9B%B4%E6%96%B0/default.jar"
+    "res": "https://proxy.ghproxy.cloud/https://github.com/pmagixc/5.4-res/archive/refs/heads/main.zip",
+    "jar": "https://proxy.ghproxy.cloud/https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/releases/download/%E7%83%AD%E6%9B%B4%E6%96%B0/default.jar"
 }
