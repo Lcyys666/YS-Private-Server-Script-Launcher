@@ -65,7 +65,7 @@ npm start
 
 ### 项目结构
 ```
-grasscutter-launcher/
+YS-Private-Server-Script-Launcher/
 ├── public/              # 静态资源
 │   ├── css/             # 样式文件
 │   ├── js/              # 客户端脚本
