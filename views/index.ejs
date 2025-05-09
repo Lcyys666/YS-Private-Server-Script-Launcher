@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grasscutter启动器</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="/images/logo.svg" alt="Grasscutter Logo">
+        <h1>Grasscutter启动器</h1>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li class="<%= page === 'launch' ? 'active' : '' %>">
+            <a href="/launch">
+              <span class="icon launch-icon"></span>
+              <span>启动</span>
+            </a>
+          </li>
+          <li class="<%= page === 'download' ? 'active' : '' %>">
+            <a href="/download">
+              <span class="icon download-icon"></span>
+              <span>下载</span>
+            </a>
+          </li>
+          <li class="<%= page === 'settings' ? 'active' : '' %>">
+            <a href="/settings">
+              <span class="icon settings-icon"></span>
+              <span>设置</span>
+            </a>
+          </li>
+          <li class="<%= page === 'others' ? 'active' : '' %>">
+            <a href="/others">
+              <span class="icon others-icon"></span>
+              <span>其他</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <% if (page === 'launch') { %>
+        <%- include('partials/launch') %>
+      <% } else if (page === 'download') { %>
+        <%- include('partials/download') %>
+      <% } else if (page === 'settings') { %>
+        <%- include('partials/settings') %>
+      <% } else if (page === 'others') { %>
+        <%- include('partials/others') %>
+      <% } %>
+    </main>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html> 

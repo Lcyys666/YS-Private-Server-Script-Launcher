@@ -1,0 +1,241 @@
+<div class="page-header">
+  <h2>资源下载</h2>
+  <p>下载Grasscutter相关资源</p>
+</div>
+
+<div class="dashboard-tabs">
+  <div class="tab active" data-tab="server">服务端资源</div>
+  <div class="tab" data-tab="client">客户端资源</div>
+  <div class="tab" data-tab="res">res资源</div>
+  <div class="tab" data-tab="plugins">插件资源</div>
+  <div class="tab-slider"></div>
+</div>
+
+<div class="download-container tab-content" id="server-tab" style="display:block">
+  <div class="admin-controls">
+    <button class="btn btn-secondary add-custom-download">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+      添加自定义下载源
+    </button>
+    <button class="btn btn-secondary refresh-downloads">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+      重新加载列表
+    </button>
+  </div>
+  
+  <div class="notice-card">
+    <div class="notice-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+    </div>
+    <div class="notice-content">
+      <h4>自动配置提醒</h4>
+      <p>下载核心后，系统将自动将基础配置文件和资源复制到核心目录，无需手动配置。</p>
+    </div>
+  </div>
+  
+  <div class="download-section">
+    <!-- 服务端列表将通过JS动态生成 -->
+    <div class="download-cards" id="server-download-cards">
+      <div class="download-loading">
+        <div class="loading-spinner"></div>
+        <p>正在加载下载资源...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="download-container tab-content" id="client-tab" style="display:none">
+  <div class="download-section">
+    <div class="download-cards">
+      <div class="download-card">
+        <div class="download-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2z"></path><path d="M14 17h-4"></path><path d="M12 4v7"></path><line x1="12" y1="4" x2="12" y2="4.01"></line></svg>
+        </div>
+        <div class="download-info">
+          <div class="download-header">
+            <h4>游戏客户端</h4>
+            <span class="version-badge">官方最新</span>
+          </div>
+          <p>完整游戏客户端安装包</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 0%"></div>
+          </div>
+          <div class="download-actions">
+            <div class="file-size" style="visibility: hidden;">60 GB</div>
+            <a href="https://files.hk4e.com/?game=hk4e" target="_blank" class="btn btn-primary download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              下载
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="download-card">
+        <div class="download-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>
+        </div>
+        <div class="download-info">
+          <div class="download-header">
+            <h4>客户端补丁</h4>
+            <span class="version-badge">5.0+</span>
+          </div>
+          <p>使游戏客户端连接到私服的必要补丁（适用于游戏5.0版本+）</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 0%"></div>
+          </div>
+          <div class="download-actions">
+            <div class="file-size" style="visibility: hidden;">15 MB</div>
+            <a href="https://gh-proxy.com/github.com/Kei-Luna/LunaGC_5.3.0/blob/dev/patch/Astrolabe.dll" target="_blank" class="btn btn-primary download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              下载
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="download-container tab-content" id="res-tab" style="display:none">
+  <div class="admin-controls">
+    <button class="btn btn-secondary refresh-res-downloads">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+      重新加载列表
+    </button>
+  </div>
+  
+  <div class="notice-card">
+    <div class="notice-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+    </div>
+    <div class="notice-content">
+      <h4>资源文件说明</h4>
+      <p>请选择与您游戏版本对应的资源文件下载，下载后需解压到服务器核心的资源目录。</p>
+    </div>
+  </div>
+
+  <div class="download-section">
+    <!-- 服务器资源列表将通过JS动态生成 -->
+    <div class="download-cards" id="res-download-cards">
+      <div class="download-loading">
+        <div class="loading-spinner"></div>
+        <p>正在加载资源文件...</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="download-section">
+    <h3>其他资源</h3>
+    <div class="download-cards">
+      <div class="download-card">
+        <div class="download-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+        </div>
+        <div class="download-info">
+          <div class="download-header">
+            <h4>祈愿池配置</h4>
+            <span class="version-badge">all</span>
+          </div>
+          <p>最新版本祈愿池JSON配置文件(Banners.json)</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 0%"></div>
+          </div>
+          <div class="download-actions">
+            <div class="file-size">点击下载</div>
+            <a href="https://github.com/Zhaokugua/Grasscutter_Banners" target="_blank" class="btn btn-primary download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              下载
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="download-container tab-content" id="plugins-tab" style="display:none">
+  <div class="download-section">
+    <div class="download-cards">
+      <div class="download-card">
+        <div class="download-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+        </div>
+        <div class="download-info">
+          <div class="download-header">
+            <h4>正在制作</h4>
+            <span class="version-badge">1.0.0</span>
+          </div>
+          <p>正在制作</p>
+          <!-- <div class="progress-bar">
+            <div class="progress" style="width: 0%"></div>
+          </div> -->
+          <div class="download-actions">
+            <!-- <div class="file-size">3.5 MB</div>
+            <button class="btn btn-primary download-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              下载
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 模板 -->
+<template id="download-card-template">
+  <div class="download-card">
+    <div class="download-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+    </div>
+    <div class="download-info">
+      <div class="download-header">
+        <h4 class="download-name"></h4>
+        <span class="version-badge"></span>
+      </div>
+      <p class="download-description"></p>
+      <div class="progress-bar">
+        <div class="progress" style="width: 0%"></div>
+      </div>
+      <div class="download-actions">
+        <div class="file-size"></div>
+        <a class="btn btn-primary download-btn" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          下载
+        </a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<!-- 添加自定义下载源模态框 -->
+<div class="modal" id="add-download-modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>添加自定义下载源</h3>
+      <button class="close-modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form id="add-download-form">
+        <div class="form-group">
+          <label for="download-name">名称</label>
+          <input type="text" id="download-name" class="form-input" placeholder="例如: Grasscutter v1.5.0" required>
+        </div>
+        <div class="form-group">
+          <label for="download-description">描述</label>
+          <input type="text" id="download-description" class="form-input" placeholder="例如: 最新版本的服务端核心" required>
+        </div>
+        <div class="form-group">
+          <label for="download-url">下载链接</label>
+          <input type="url" id="download-url" class="form-input" placeholder="例如: https://example.com/download.zip" required>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary close-modal-btn">取消</button>
+          <button type="submit" class="btn btn-primary">添加</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div> 
+  </div>
+</div> 

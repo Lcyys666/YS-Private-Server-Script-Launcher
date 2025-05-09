@@ -1,0 +1,112 @@
+<div class="page-header">
+  <h2>个性化设置</h2>
+  <p>自定义启动器及游戏体验</p>
+</div>
+
+<div class="settings-tip">
+  <div class="tip-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+  </div>
+  <div class="tip-content">
+    <p>修改设置后，别忘了点击下方的"保存设置"按钮来应用更改！</p>
+  </div>
+</div>
+
+<div class="settings-container">
+  <form class="settings-form">
+    <div class="settings-section">
+      <h3>界面设置</h3>
+      
+      <div class="form-group">
+        <label for="app-theme">主题颜色</label>
+        <select id="app-theme" class="form-input">
+          <option value="default">默认蓝色</option>
+          <option value="dark">暗黑模式</option>
+          <option value="light">亮色模式</option>
+          <option value="green">森林绿</option>
+          <option value="purple">紫罗兰</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <div class="checkbox">
+          <input type="checkbox" id="enable-animations" checked>
+          <label for="enable-animations">启用界面动画效果</label>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="checkbox">
+          <input type="checkbox" id="compact-mode">
+          <label for="compact-mode">紧凑界面模式</label>
+        </div>
+      </div>
+    </div>
+    
+    <div class="settings-section">
+      <h3>启动设置</h3>
+      
+      <div class="form-group">
+        <label for="startup-tab">启动时显示的标签页</label>
+        <select id="startup-tab" class="form-input">
+          <option value="launch">启动页面</option>
+          <option value="download">下载页面</option>
+          <option value="settings">设置页面</option>
+          <option value="others">其他功能</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <div class="checkbox">
+          <input type="checkbox" id="auto-check-updates" checked>
+          <label for="auto-check-updates">启动时检查更新</label>
+        </div>
+      </div>
+    </div>
+    
+    <div class="settings-section">
+      <h3>游戏路径</h3>
+      
+      <div class="form-group">
+        <label for="game-folder">游戏安装目录</label>
+        <div class="input-with-button">
+          <input type="text" id="game-folder" class="form-input" placeholder="例如: C:\Program Files\Genshin Impact">
+          <button type="button" class="btn btn-browse">浏览</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="settings-section">
+      <h3>数据管理</h3>
+      
+      <div class="form-group">
+        <button type="button" class="btn btn-danger clear-data-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+          清除本地缓存数据
+        </button>
+      </div>
+      
+      <div class="form-group">
+        <button type="button" class="btn btn-secondary backup-settings-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+          备份设置
+        </button>
+      </div>
+      
+      <div class="form-group">
+        <button type="button" class="btn btn-secondary restore-settings-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15v4a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4"></path><polyline points="17 8 12 13 7 8"></polyline><line x1="12" y1="3" x2="12" y2="13"></line></svg>
+          恢复设置
+        </button>
+      </div>
+    </div>
+    
+    <div class="form-actions">
+      <button type="button" class="btn btn-secondary reset-settings-btn">恢复默认</button>
+      <button type="submit" class="btn btn-primary save-settings-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+        保存设置
+      </button>
+    </div>
+  </form>
+</div> 

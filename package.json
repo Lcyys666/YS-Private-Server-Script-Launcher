@@ -1,0 +1,32 @@
+{
+  "name": "ys-private-server-script-launcher",
+  "version": "1.0.0",
+  "description": "Grasscutter启动器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lcyys666/YS-Private-Server-Script-Launcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lcyys666/YS-Private-Server-Script-Launcher/issues"
+  },
+  "homepage": "https://github.com/Lcyys666/YS-Private-Server-Script-Launcher#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.9.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "iconv-lite": "^0.6.3",
+    "rimraf": "^6.0.1",
+    "unzipper": "^0.12.3",
+    "ws": "^8.18.2"
+  }
+}
